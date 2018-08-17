@@ -25,7 +25,7 @@
     $list: "#{$list}, .col-#{$class}-#{$i}";
   }
   #{$list} {
-    float: right;
+    float: left;
   }
 }
 
