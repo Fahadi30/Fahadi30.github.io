@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 .services:hover .icon, .services:focus .icon {
-  background: #6e839a;
+  background: pink;
 }
 .services:hover .icon i, .services:focus .icon i {
   color: #fff;
@@ -883,7 +883,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-blog .blog-img-holder {
   display: block;
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
