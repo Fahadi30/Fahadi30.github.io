@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 .services:hover .icon, .services:focus .icon {
-  background: #2D6CDF;
+  background: #6e839a;
 }
 .services:hover .icon i, .services:focus .icon i {
   color: #fff;
@@ -542,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .course .course-img {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -739,6 +739,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+.testimony-slide p{
+    font-weight: lighter;
 }
 #fh5co-testimonial .testimony-slide blockquote {
   border: none;
