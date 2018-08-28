@@ -1,0 +1,391 @@
+/*--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+
+/*-- Reset Code --*/
+
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+	article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+	ol,ul{list-style:none;padding:0;margin:0;}
+	blockquote,q{quotes:none;}
+	blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+	table{border-collapse:collapse;border-spacing:0;}
+	a{text-decoration:none;}
+	.txt-rt{text-align:right;}
+	.txt-lt{text-align:left;}
+	.txt-center{text-align:center;}
+	.float-rt{float:right;}
+	.float-lt{float:left;}
+	.clear{clear:both;}
+	.pos-relative{position:relative;}
+	.pos-absolute{position:absolute;}
+	.vertical-base{vertical-align:baseline;}
+	.vertical-top{vertical-align:top;}
+	.underline{	padding-bottom:5px;	border-bottom:1px solid #eee;margin:0 0 20px 0;}
+	nav.vertical ul li{display:block;}
+	nav.horizontal ul li{display: inline-block;}
+	img{max-width:100%;}
+
+/*-- Reset Code --*/
+
+
+
+/*-- Index-Page-Styling --*/
+
+body {
+	background: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #FFF;
+	margin: 50px auto;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 75px;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #155966;
+}
+
+h3 {
+	color: #000;
+	margin: 30px 0 50px;
+	font-size: 20px;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	color: #155966;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact input[type="password"] {
+	width: 94.5%;
+	padding: 10px;
+	margin: 10px 0;
+	outline: none;
+	color: #000;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contact textarea {
+	height: 100px;
+}
+
+.contact ::-webkit-input-placeholder {
+	color: #666;
+}
+
+.contact ::-moz-placeholder {
+	color: #666;
+}
+
+.contact ::-moz-placeholder {
+	color: #666;
+}
+
+.contact ::-ms-input-placeholder {
+	color: #666;
+}
+
+.container p {
+	font-size: 16px;
+	color: #333;
+	margin: 20px 0 30px;
+}
+
+.send-button {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.send-button input[type="submit"] {
+	padding: 10px 0;
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	color: #FFF;
+	background-color: #155966;
+	cursor: pointer;
+}
+
+.send-button input[type="submit"]:hover {
+	background-color: #055d54;
+}
+
+.footer {
+	margin: 50px 20px 30px;
+}
+
+.footer p a {
+	color: #FFF;
+}
+
+.footer p {
+	line-height: 25px;
+}
+
+.footer p a:hover {
+	color: #00BCD4;
+}
+
+/*-- Index-Page-Styling --*/
+
+
+
+
+
+/*--- Responsive Code ---*/
+
+
+
+@media screen and (max-width: 1920px) {
+	.container {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.container {
+		width: 70%;
+	}
+}
+/*--w3layouts--*/
+/*--agileits--*/
+
+@media screen and (max-width: 1366px) {
+	h3 {
+		margin: 30px 0;
+	}
+	.send-button input[type="submit"] {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 85%;
+		padding: 40px;
+	}
+	h2 {
+		font-size: 38px;
+	}
+}
+
+@media screen and (max-width: 966px) {
+	h2 {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 853px) {
+	h2 {
+		font-size: 32px;
+	}
+	.contact input[type="text"], .contact input[type="email"], .contact input[type="password"] {
+		width: 96.5%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h2 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 29px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	/*--w3layouts--*/
+	/*--agileits--*/
+	h1 {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 27px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.container {
+		width: 85%;
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 40px;
+	}
+	.contact input[type="text"], .contact input[type="email"], .contact input[type="password"] {
+		width: 95.5%;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	h1 {
+		font-size: 35px;
+		margin: 30px 0;
+	}
+	.container {
+		padding: 25px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		margin: 20px 0;
+		font-size: 18px;
+	}
+	.container p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.send-button input[type="submit"] {
+		font-size: 16px;
+	}
+	.footer p {
+		font-size: 14px;
+		/*--w3layouts--*/
+		/*--agileits--*/
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 17px;
+		line-height: 28px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	h1 {
+		font-size: 27px;
+	}
+	.container {
+		padding: 20px;
+	}
+	h2 {
+		font-size: 21px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+		font-size: 19px;
+	}
+	h3 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 18px;
+		/*--w3layouts--*/
+		/*--agileits--*/
+		line-height: 27px;
+	}
+	.contact input[type="text"], .contact input[type="email"], .contact input[type="password"] {
+		width: 91.5%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 20px;
+	}
+	.container {
+		padding: 10px 15px;
+	}
+	h2 {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	h3 {
+		font-size: 14px;
+		margin: 15px 0;
+		line-height: 22px;
+	}
+	.container p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.send-button input[type="submit"] {
+		font-size: 14px;
+		width: 60%;
+	}
+	.footer p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+}
+
+
+
+/*--- Responsive Code ---*/
